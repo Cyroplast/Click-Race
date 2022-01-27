@@ -8,7 +8,7 @@ Thank you.
 1.3 is out!! 
 This update includes:
 -bug fixes
--more boug fixes 
+-more bug fixes 
 -even more bug fixes
 -NEW username System
 -Blue Bot Difficulty toggle!
