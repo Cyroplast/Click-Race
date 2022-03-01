@@ -12,3 +12,6 @@ canvas {
 .setin{
     margin-bottom: 10px;
 }
+body{
+    overflow-x:none;
+}
