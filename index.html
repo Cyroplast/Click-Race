@@ -14,13 +14,15 @@
 </head>
 <body onload="startGame()" id="body">
    <section id="GameArea">
-    <canvas id="canvas1" onclick="move()">Sorry, An error occured.</canvas>
+    <canvas id="canvas1">Sorry, An error occured.</canvas>
    </section>
    <section id="stats">
     <div class="row col-sm-6">
     </div>
-   <h2 id="statshdr" class="col-sm-6">Settings & Controls</h2>
-   <div class="row col-sm-6">
+    <button onclick="move()" class="col-sm-12" id="buttonlol"></button>
+   <h2 id="statshdr" class="col-sm-12">Settings & Controls</h2>
+   
+   <div class="row col-sm-12">
    <div class="col-sm-12 setin">Bots' Difficulty  <input type="number" width="5px" min="0" max="10" id="dif" value="4"></div>
    <div class="col-sm-12"></div>
    </div>

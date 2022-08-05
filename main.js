@@ -19,12 +19,12 @@ var myGameArea = {
         setInterval(function(){
             if(started == 0){
                 ctx.font = "50px Arial"; ctx.fillStyle = "blue";
-           ctx.fillText("Click Anywhere To Play", 230, 50);
+           ctx.fillText("Click The Button To Play", 230, 50);
            ctx                                          
         }
         },0.5);
         this.canvas.width = 900;
-        this.canvas.height = 350;
+        this.canvas.height = 325;
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
         this.interval = setInterval(updateGameArea, 20);
