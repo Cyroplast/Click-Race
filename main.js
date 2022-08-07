@@ -19,7 +19,7 @@ var myGameArea = {
         setInterval(function(){
             if(started == 0){
                 ctx.font = "50px Arial"; ctx.fillStyle = "blue";
-           ctx.fillText("Click The Green Button To Play", 230, 50);
+           ctx.fillText("Click The Green Button To Play", 130, 50);
            ctx                                          
         }
         },0.5);
